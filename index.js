@@ -5,3 +5,8 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   return document.querySelector('#nested .target')
 }
+
+function increaseRankBy(n) {
+  var increase = document.querySelectorAll('ul.ranked-list')
+  return increase + 1
+}
